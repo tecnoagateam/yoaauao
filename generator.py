@@ -19,17 +19,18 @@ app = Client(
     plugins=dict(root="StringSessionBot"),
 )
 
+app.storage.SESSION_STRING_FORMAT = ">B?256sQ?"
 
 # Run Bot
 if __name__ == "__main__":
     try:
         app.start()
     except (ApiIdInvalid, ApiIdPublishedFlood):
-        raise Exception("Your API_ID/API_HASH is not valid.")
+        raise Exception("Your API_ID/API_HASH IS INVALID.")
     except AccessTokenInvalid:
-        raise Exception("Your BOT_TOKEN is not valid.")
+        raise Exception("YOUR BOT_TOKEN IS WRONG, KYA FAAYDA TERE PADHNE LIKHNE KA BSDK.")
     uname = app.get_me().username
-    print(f"@{uname} Started Successfully!")
+    print(f"@{uname} Started Successfully for Generating Sessions !")
     idle()
     app.stop()
-    print("Bot stopped, Bye !")
+    print("Bot Stopped, Bhakk Bsdk !")

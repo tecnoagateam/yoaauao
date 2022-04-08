@@ -1,7 +1,7 @@
 {
-  "name": "Pyrogram String Session Generator",
-  "description": "Telegram Bot to Generate Pyrogram and Telethon String Session",
-  "logo": "https://telegra.ph/file/ed1ce7fee94f46b0f671e.jpg",
+  "name": "sᴛʀɪɴɢ sᴇssɪᴏɴ ɢᴇɴᴇʀᴀᴛᴏʀ",
+  "description": "A Telegram Bot to generate Telethon and Pyrogram String Sessions.",
+  "logo": "https://telegra.ph/file/654ddaf472f18b799600b.jpg",
   "keywords": [
     "telegram",
     "bot",
@@ -25,7 +25,7 @@
          "plan": "heroku-postgresql"
       }
    ],
-  "repository": "https://github.com/AnonymousBoy1025/StringGenerator",
+  "repository": "https://github.com/AnonymousR1025/StringGenBot",
   "env": {
     "ENVIRONMENT": {
       "description": "Don't change ANYTHING.",
@@ -33,23 +33,18 @@
       "value": "ANYTHING"
     },
     "API_ID": {
-      "description": "Get this value from my.telegram.org.",
+      "description": "Get this value from my.telegram.org/apps.",
       "required": true,
       "value": ""
     },
     "API_HASH": {
-      "description": "Get this value from my.telegram.org.",
+      "description": "Get this value from my.telegram.org/apps.",
       "required": true,
       "value": ""
     },
     "BOT_TOKEN": {
-      "description": "Obtain a Telegram bot token by contacting @BotFather",
+      "description": "Get this value from @BotFather",
       "required": true,
-      "value": ""
-    },
-    "MUST_JOIN": {
-      "description": "Add username/id of a channel/group",
-      "required": false,
       "value": ""
     }
   }
